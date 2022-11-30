@@ -1,0 +1,13 @@
+* {
+    
+    box-sizing:border-box;
+
+}
+.first_section {
+    display:inline-block;
+    position: absolute;
+
+    left: 40%;
+}
+.first_list {
+    list-style: none; }
