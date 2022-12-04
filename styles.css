@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section  {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+
+.clase_seccion {
+    background-color: brown;
+}
+h2 {
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-bottom: 20px;
+}
+ul {
+    list-style: none;
+}
+li {
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
