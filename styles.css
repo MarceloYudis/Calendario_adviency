@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+main {
+    background-color: gray;
+    display: block;
+    min-width: 100%;
+    min-height: 670px;
+}
+.allcontent {
+    background-color: greenyellow;
+
+}
 section  {
     height: 200px;
     width: 200px;
@@ -16,7 +26,8 @@ section  {
 
 
 .clase_seccion {
-    background-color: brown;
+    background-color: white;
+    border: 5px solid red;
 }
 h2 {
     padding-top: 10px;
