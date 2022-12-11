@@ -9,20 +9,23 @@ function agregarItem() {
     const span = document.createElement('span');
     const boton = document.createElement('button');
 
-    const idDelBoton = `btn_D${i}`;
-    const borrar = `borrarItem(${idDelBoton})`;
+    const idDelBoton = "btn_D" + i;
+   
+
+
 
 
     const lista = document.getElementsByClassName('first_list');
     li.setAttribute("id",`D${i}`);
+    li.textContent = `${inpuT}`;
 
     boton.appendChild(document.createTextNode("D"));
-    boton.setAttribute("type","button")
+    boton.setAttribute("type","button");
     boton.setAttribute("id",`btn_D${i}`);
-    boton.setAttribute("onclick", borrar);
+    boton.setAttribute("onclick", `borrarItem("${idDelBoton}")`)
 
-    span.appendChild(document.createTextNode(inpuT));
-    document.querySelector("#lista").appendChild(li).appendChild(span)
+
+    document.querySelector("#lista").appendChild(li)
     document.querySelector(`#D${i}`).appendChild(boton)
     i++;
 }
