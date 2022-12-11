@@ -13,17 +13,18 @@
             <section class="first_section">
                 <h2 class="title">Regalos:</h2>
                 <form>
-                    <label>
-                        <input type="text">
-                        <button type="button">Agregar</button>
+                    <label for="contenido_usuario">
+                        <input  id="contenido_usuario" type="text" value="">
+                        <button type="button" onclick="agregarItem()">Agregar</button>
                     </label>
                 </form>
-            <ul class="first_list">
-                <li>Medias</li>
-                <li>Caramelos</li>
-                <li>Vitel tone</li>
+            <ul id="lista"class="first_list">
+                <li id="D1">Medias <button id="btn_D1" type="button" onclick="borrarItem('btn_D1')">D</button></li>
+                <li id="D2">Caramelos <button id="btn_D2"  type="button" onclick="borrarItem('btn_D2')">D</button></li>
+                <li id="D3">Vitel tone <button id="btn_D3"  type="button" onclick="borrarItem('btn_D3')">D</button></li>
             </section>
             </ul>
         </main>
+        <script src="./codigo.js"></script>
     </body>
 </html>
