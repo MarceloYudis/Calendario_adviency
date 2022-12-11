@@ -7,7 +7,14 @@
     display:inline-block;
     position: absolute;
 
+    width: 300px;
+    height: 300px;
+    border: 5px black solid;
+
+    background-color: seagreen;
     left: 40%;
 }
 .first_list {
-    list-style: none; }
+    list-style: none; 
+    
+}
